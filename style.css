@@ -1,8 +1,8 @@
 /* reset */
 li {list-style: none;}
-h1 {margin: 70px 0;}
+h1 {margin: 60px 0;}
 em {font-style: normal;}
-h2 {text-align: center; margin-bottom: 50px;}
+h2 {text-align: center; margin-bottom: 45px;}
 a {text-decoration: none; color: blue;}
 
 /* common */
@@ -31,22 +31,8 @@ section {
     transition: all 0.3s;
     border: 3px solid black;
 }
-/* section:hover {background-color: rgb(255, 255, 255);} */
 section > ul > li:first-child {padding-bottom: 0;}
-section > ul > li {padding-bottom: 10px;}
-/* .btn__All {
-    text-align: center;
-    margin-right: 40px;
-}
-.btn__All a {
-    color: #000;
-    border: 2px solid #eee;
-    border-radius: 30px;
-    padding: 15px 25px;
-    background-color: #fff;
-}
-.btn__All a:hover {background-color: rgb(206, 248, 255);} */
-  
+section > ul > li {padding-bottom: 5px;}
 
 @media (max-width: 1280px) {
     #main {flex-direction: column;}
