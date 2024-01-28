@@ -1,68 +1,78 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/** This injects Tailwind's base styles and any base styles registered by plugins. */
+@tailwind base;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/** This injects Tailwind's component classes and any component classes registered by plugins. */
+@tailwind components;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/** This injects Tailwind's utility classes and any utility classes registered by plugins. */
+@tailwind utilities;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+/** Use this directive to control where Tailwind injects the hover, focus, responsive, dark mode, and other variants of each class. If omitted, Tailwind will append these classes to the very end of your stylesheet by default. */
+@tailwind variants;
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@layer base {
+  /* common */
+  body {
+    @apply relative w-full h-[100vh] font-primary font-extralight bg-light dark:bg-dark text-dark dark:text-light;
   }
-  a:hover {
-    color: #747bff;
+  h1,
+  h2 {
+    @apply hidden;
   }
-  button {
-    background-color: #f9f9f9;
+  .inner {
+    @apply relative w-full h-[100vh];
+  }
+  .section__container {
+    @apply absolute right-[50%] bottom-[50%] translate-x-2/4 translate-y-2/4 flex flex-col justify-center items-center w-[80%] md:w-[80%] lg:w-[70%] xl:w-[55%];
+  }
+
+  /* nav */
+  .nav_list {
+    @apply flex px-7 gap-24 text-4xl font-medium w-full justify-between;
+  }
+  .mobile_nav {
+    @apply fixed top-[3rem] right-[3rem] z-[99] md:hidden;
+  }
+
+  /* home */
+  #home .card_cont {
+    @apply w-full border-dark dark:border-light border-2 mt-14 p-10;
+  }
+  #home .img_cont {
+    @apply w-[40%];
+  }
+  #home .intro_cont {
+    @apply w-[60%] flex flex-col justify-around ml-9;
+  }
+  #home .icon {
+    @apply rounded-full shadow-lg bg-gray-100 dark:bg-slate-700 shadow-gray-400 m-2 p-3 cursor-pointer hover:scale-110 ease-in duration-300;
+  }
+
+  /* mask, frame */
+  #mask,
+  #frame {
+    @apply fixed w-full h-full top-0 left-0 pointer-events-none z-[100];
+  }
+  .mask_cont {
+    @apply absolute bg-light dark:bg-dark opacity-90;
+  }
+  .frame_line {
+    @apply absolute bg-light opacity-50 my-auto;
+  }
+
+  /* background */
+  #background {
+    @apply fixed top-[2rem] right-[2rem] bottom-[2rem] left-[2rem];
+  }
+
+  /* theme */
+  #theme {
+    @apply fixed z-[100] left-8 bottom-8 origin-bottom-left -rotate-90 whitespace-nowrap mix-blend-difference text-light flex gap-4 cursor-pointer;
+  }
+  .theme_btns_wrap {
+    @apply flex justify-center items-center gap-1 uppercase;
+  }
+  .theme_btn {
+    @apply w-3 h-3 border border-solid;
   }
 }

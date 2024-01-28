@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState, useEffect, useContext } from "react"; // eslint-disable-line no-unused-vars
+import { BrowserRouter as Router } from "react-router-dom";
+// import { motion } from "framer-motion";
+// import { CursorContext } from "./context/CursorContext";
+
+import Layout from "./layout/Layout";
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  // const { cursorVariatns, cursorBG } = useContext(CursorContext);
+  
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Router>
+        <Layout />
+      </Router>
+
+      {/** cursor */}
+      {/* <motion.div
+        variants={cursorVariatns}
+        animate={cursorBG}
+        className="w-[32px] h-[32px] bg-primary fixed top-0 left-0 pointer-events-none z-50 rounded-full z-[999]"
+      ></motion.div> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
