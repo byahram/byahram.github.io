@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url("../fonts/IBMPlexSans/IBMPlexSans.css");
+@import url("../fonts/NanumSquare/nanumsquare.css");
+@import url("../fonts/NotoSansKR/NotoSansKR.css");
+@import url("../fonts/Poppins/Poppins.css");
+@import url("../fonts/PPNeueWorld/PPNeueWorld.css");
+@import url("../fonts/ProximaNova/ProximaNova.css");
+@import url("../fonts/RedHatDisplay/RedHatDisplayFont.css");
+@import url("../fonts/SCoreDream/scdream.css");
+@import url("../fonts/SUIT-Variable/SUIT-Variable.css");
+
+/* google api */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");

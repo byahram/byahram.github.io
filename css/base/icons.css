@@ -1,0 +1,445 @@
+/***
+  * 아이콘 공통
+  * 
+  * <a href="" class="use_ico">ICON LABEL<i class="ico_comm ico12 line_arrow postfix"></i></a> 
+  */
+.use_ico {
+    display: flex;
+    align-items: center;
+}
+.ico_comm {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+}
+.ico_comm.prefix {
+    margin-right: 4px;
+}
+.ico_comm.postfix {
+    margin-left: 4px;
+}
+.ico_comm.ico10 {
+    width: 10px;
+    height: 10px;
+}
+.ico_comm.ico12 {
+    width: 12px;
+    height: 12px;
+}
+.ico_comm.ico16 {
+    width: 16px;
+    height: 16px;
+}
+.ico_comm.ico18 {
+    width: 18px;
+    height: 18px;
+}
+.ico_comm.ico24 {
+    width: 24px;
+    height: 24px;
+}
+.ico_comm.ico30 {
+    width: 30px;
+    height: 30px;
+}
+.ico_comm.ico32 {
+    width: 32px;
+    height: 32px;
+}
+.ico_comm.ico36 {
+    width: 36px;
+    height: 36px;
+}
+.ico_comm.ico48 {
+    width: 48px;
+    height: 48px;
+}
+
+.ico_comm.alarm {
+    background-image: url('../icons/ico_alarm.png');
+}
+.ico_comm.arrow_left {
+    background-image: url('../icons/ico_arrow_left.png');
+}
+.ico_comm.arrow_left2 {
+    background-image: url('../icons/ico_arrow_left2.png');
+}
+.ico_comm.arrow_right {
+    background-image: url('../icons/ico_arrow_right.png');
+}
+.ico_comm.arrow_right2 {
+    background-image: url('../icons/ico_arrow_right2.png');
+}
+.ico_comm.artwork {
+    background-image: url('../icons/ico_artwork.png');
+}
+.ico_comm.askus {
+    background-image: url('../icons/ico_askus.png');
+}
+.ico_comm.asterisk {
+    background-image: url('../icons/ico_asterisk.png');
+}
+.ico_comm.asterisk2 {
+    background-image: url('../icons/ico_asterisk2.svg');
+}
+.ico_comm.breadcrumb {
+    background-image: url('../icons/ico_breadcrumb.png');
+}
+.ico_comm.cart {
+    background-image: url('../icons/ico_cart.png');
+}
+.ico_comm.cart_w {
+    background-image: url('../icons/ico_cart_w.png');
+}
+.ico_comm.cart2 {
+    background-image: url('../icons/ico_cart2.png');
+}
+.ico_comm.cart2_w {
+    background-image: url('../icons/ico_cart2_w.png');
+}
+.ico_comm.check_blk {
+    background-image: url('../icons/ico_check_blk.png');
+}
+.ico_comm.check_gry {
+    background-image: url('../icons/ico_check_gry.png');
+}
+.ico_comm.check_w {
+    background-image: url('../icons/ico_check_w.png');
+}
+.ico_comm.clip {
+    background-image: url('../icons/ico_clip.png');
+}
+.ico_comm.clip_b {
+    background-image: url('../icons/ico_clip_b.png');
+}
+.ico_comm.clip_g {
+    background-image: url('../icons/ico_clip_g.png');
+}
+.ico_comm.clip2 {
+    background-image: url('../icons/ico_clip2.png');
+}
+.ico_comm.clip2_circle {
+    background-image: url('../icons/ico_clip2_circle.png');
+}
+.ico_comm.clip2_circle_b {
+    background-image: url('../icons/ico_clip2_circle_b.png');
+}
+.ico_comm.clip2_w {
+    background-image: url('../icons/ico_clip2_w.png');
+}
+.ico_comm.close {
+    background-image: url('../icons/ico_close.png');
+}
+.ico_comm.close_g {
+    background-image: url('../icons/ico_close_g.png');
+}
+.ico_comm.close_w {
+    background-image: url('../icons/ico_close_w.png');
+}
+.ico_comm.close_g2 {
+    background-image: url('../icons/ico_close_g2.png');
+}
+.ico_comm.close2 {
+    background-image: url('../icons/ico_close2.png');
+}
+.ico_comm.complete {
+    background-image: url('../icons/ico_complete.png');
+}
+.ico_comm.compliance_o {
+    background-image: url('../icons/ico_compliance_o.png');
+}
+.ico_comm.compliance_x {
+    background-image: url('../icons/ico_compliance_x.png');
+}
+.ico_comm.compliance_y {
+    background-image: url('../icons/ico_compliance_y.png');
+}
+.ico_comm.confirm {
+    background-image: url('../icons/ico_confirm.png');
+}
+.ico_comm.date {
+    background-image: url('../icons/ico_date.png');
+}
+.ico_comm.delete_b {
+    background-image: url('../icons/ico_delete_b.png');
+}
+.ico_comm.delete_g {
+    background-image: url('../icons/ico_delete_g.png');
+}
+.ico_comm.detail {
+    background-image: url('../icons/ico_detail.png');
+}
+.ico_comm.down_b {
+    background-image: url('../icons/ico_down_b.png');
+}
+.ico_comm.down_w {
+    background-image: url('../icons/ico_down_w.png');
+}
+.ico_comm.down2 {
+    background-image: url('../icons/ico_down2.png');
+}
+.ico_comm.download {
+    background-image: url('../icons/ico_download.png');
+}
+.ico_comm.download_w {
+    background-image: url('../icons/ico_download_w.png');
+}
+.ico_comm.download2 {
+    background-image: url('../icons/ico_download2.png');
+}
+.ico_comm.dropdown {
+    background-image: url('../icons/ico_dropdown.png');
+}
+.ico_comm.edit {
+    background-image: url('../icons/ico_edit.png');
+}
+.ico_comm.error_red {
+    background-image: url('../icons/ico_error_red.png');
+}
+.ico_comm.etc {
+    background-image: url('../icons/ico_etc.png');
+}
+.ico_comm.etc2 {
+    background-image: url('../icons/ico_etc2.png');
+}
+.ico_comm.faq {
+    background-image: url('../icons/ico_faq.png');
+}
+.ico_comm.filter {
+    background-image: url('../icons/ico_filter.png');
+}
+.ico_comm.googledrive {
+    background-image: url('../icons/ico_googledrive.png');
+}
+.ico_comm.home {
+    background-image: url('../icons/ico_home.png');
+}
+.ico_comm.htu_play {
+    background-image: url('../icons/ico_htu_play.png');
+}
+.ico_comm.htu_play_g {
+    background-image: url('../icons/ico_htu_play_g.png');
+}
+.ico_comm.inquiry {
+    background-image: url('../icons/ico_inquiry.png');
+}
+.ico_comm.inquiry2 {
+    background-image: url('../icons/ico_inquiry2.png');
+}
+.ico_comm.inquiry2_w {
+    background-image: url('../icons/ico_inquiry2_w.png');
+}
+.ico_comm.language {
+    background-image: url('../icons/ico_language.png');
+}
+.ico_comm.language2 {
+    background-image: url('../icons/ico_language2.png');
+}
+.ico_comm.line_arrow {
+    background-image: url('../icons/ico_line_arrow.png');
+}
+.ico_comm.line_arrow_l {
+    background-image: url('../icons/ico_line_arrow_l.png');
+}
+.ico_comm.line_arrow_l_g {
+    background-image: url('../icons/ico_line_arrow_l_g.png');
+}
+.ico_comm.line_arrow_w {
+    background-image: url('../icons/ico_line_arrow_w.png');
+}
+.ico_comm.line_arrow2 {
+    background-image: url('../icons/ico_line_arrow2.png');
+}
+.ico_comm.line_arrow2_g {
+    background-image: url('../icons/ico_line_arrow2_g.png');
+}
+.ico_comm.line_parent {
+    background-image: url('../icons/ico_line_parent.png');
+}
+.ico_comm.line_parent_b {
+    background-image: url('../icons/ico_line_parent_b.png');
+}
+.ico_comm.line_pending {
+    background-image: url('../icons/ico_line_pending.png');
+}
+.ico_comm.line_pending_g {
+    background-image: url('../icons/ico_line_pending_g.png');
+}
+.ico_comm.link {
+    background-image: url('../icons/ico_link.png');
+}
+.ico_comm.login {
+    background-image: url('../icons/ico_login.png');
+}
+.ico_comm.menu {
+    background-image: url('../icons/ico_menu.png');
+}
+.ico_comm.menu2 {
+    background-image: url('../icons/ico_menu2.png');
+}
+.ico_comm.menu2_m {
+    background-image: url('../icons/ico_menu2_m.png');
+}
+.ico_comm.menu2_w {
+    background-image: url('../icons/ico_menu2_w.png');
+}
+.ico_comm.menu2_w_m {
+    background-image: url('../icons/ico_menu2_w_m.png');
+}
+.ico_comm.minus {
+    background-image: url('../icons/ico_minus.png');
+}
+.ico_comm.minus_g {
+    background-image: url('../icons/ico_minus_g.png');
+}
+.ico_comm.minus_w {
+    background-image: url('../icons/ico_minus_w.png');
+}
+.ico_comm.next_b {
+    background-image: url('../icons/ico_next_b.png');
+}
+.ico_comm.passwword_hide {
+    background-image: url('../icons/ico_password_hide.png');
+}
+.ico_comm.passwword_hide_svg {
+    background-image: url('../icons/ico_password_hide.svg');
+}
+.ico_comm.password_view {
+    background-image: url('../icons/ico_password_view.png');
+}
+.ico_comm.password_view_svg {
+    background-image: url('../icons/ico_password_view.svg');
+}
+.ico_comm.pause {
+    background-image: url('../icons/ico_pause.png');
+}
+.ico_comm.play {
+    background-image: url('../icons/ico_play.png');
+}
+.ico_comm.plus {
+    background-image: url('../icons/ico_plus.png');
+}
+.ico_comm.plus_g {
+    background-image: url('../icons/ico_plus_g.png');
+}
+.ico_comm.plus_w {
+    background-image: url('../icons/ico_plus_w.png');
+}
+.ico_comm.pre_w {
+    background-image: url('../icons/ico_pre_white.png');
+}
+.ico_comm.project_list {
+    background-image: url('../icons/ico_projectlist.png');
+}
+.ico_comm.refresh {
+    background-image: url('../icons/ico_refresh.png');
+}
+.ico_comm.search {
+    background-image: url('../icons/ico_search.png');
+}
+.ico_comm.search2 {
+    background-image: url('../icons/ico_search2.png');
+}
+.ico_comm.search2_w {
+    background-image: url('../icons/ico_search2_w.png');
+}
+.ico_comm.select {
+    background-image: url('../icons/ico_select.png');
+}
+.ico_comm.select2 {
+    background-image: url('../icons/ico_select2.png');
+}
+.ico_comm.send_iqry {
+    background-image: url('../icons/ico_send_iqry.png');
+}
+.ico_comm.sendchat {
+    background-image: url('../icons/ico_sendchat.png');
+}
+.ico_comm.tip {
+    background-image: url('../icons/ico_tip.png');
+}
+.ico_comm.tooltip_ask_b {
+    background-image: url('../icons/ico_tooltip_ask_b.png');
+}
+.ico_comm.tooltip_ask_w {
+    background-image: url('../icons/ico_tooltip_ask_w.png');
+}
+.ico_comm.tooltip_b {
+    background-image: url('../icons/ico_tooltip_b.png');
+}
+.ico_comm.tooltip_l {
+    background-image: url('../icons/ico_tooltip_l.png');
+}
+.ico_comm.totop {
+    background-image: url('../icons/ico_totop.png');
+}
+.ico_comm.totop2 {
+    background-image: url('../icons/ico_totop2.png');
+}
+.ico_comm.track {
+    background-image: url('../icons/ico_track.png');
+}
+.ico_comm.track_g {
+    background-image: url('../icons/ico_track_g.png');
+}
+.ico_comm.up_b {
+    background-image: url('../icons/ico_up_b.png');
+}
+.ico_comm.upload {
+    background-image: url('../icons/ico_upload.png');
+}
+.ico_comm.upload_w {
+    background-image: url('../icons/ico_upload_w.png');
+}
+.ico_comm.user {
+    background-image: url('../icons/ico_user.png');
+}
+.ico_comm.user2 {
+    background-image: url('../icons/ico_user2.png');
+}
+.ico_comm.user2_w {
+    background-image: url('../icons/ico_user2_w.png');
+}
+.ico_comm.warning {
+    background-image: url('../icons/ico_warning.png');
+}
+.ico_comm.warning2 {
+    background-image: url('../icons/ico_warning2.png');
+}
+.ico_comm.zoom {
+    background-image: url('../icons/ico_zoom.png');
+}
+.ico_comm.loading {
+    background-image: url('../icons/ico_loading.png');
+}
+.ico_comm.instagram_w {
+    background-image: url('../icons/ico_sns_instagram.png');
+    border: 0.5px solid #444;
+    border-radius: 50%;
+}
+.ico_comm.facebook_w {
+    background-image: url('../icons/ico_sns_facebook.png');
+    border: 0.5px solid #444;
+    border-radius: 50%;
+}
+.ico_comm.youtube_w {
+    background-image: url('../icons/ico_sns_youtube.png');
+    border: 0.5px solid #444;
+    border-radius: 50%;
+}
+.ico_comm.instagram_w_svg {
+    background-image: url('../icons/ico_sns_instagram.svg');
+    border: 0.5px solid #444;
+    border-radius: 50%;
+}
+.ico_comm.facebook_w_svg {
+    background-image: url('../icons/ico_sns_facebook.svg');
+    border: 0.5px solid #444;
+    border-radius: 50%;
+}
+.ico_comm.youtube_w_svg {
+    background-image: url('../icons/ico_sns_youtube.svg');
+    border: 0.5px solid #444;
+    border-radius: 50%;
+}
