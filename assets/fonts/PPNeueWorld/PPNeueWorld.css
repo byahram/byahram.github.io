@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'PPNeueWorld';
+    font-weight: 400;
+    src: url(PPNeueWorld-Regular.eot);
+    src: local('☺'),
+         url(PPNeueWorld-Regular2.eot) format('embedded-opentype'),
+         url(PPNeueWorld-Regular.woff) format('woff'),
+         url(PPNeueWorld-Regular.woff2) format('woff2'),
+         url(PPNeueWorld-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'PPNeueWorld';
+    font-weight: 300;
+    src: url(PPNeueWorld-Thin.eot);
+    src: local('☺'),
+         url(PPNeueWorld-Thin2.eot) format('embedded-opentype'),
+         url(PPNeueWorld-Thin.woff) format('woff'),
+         url(PPNeueWorld-Thin.woff2) format('woff2'),
+         url(PPNeueWorld-Thin.ttf) format('truetype');
+}
